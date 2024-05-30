@@ -3,12 +3,28 @@
     height: 5rem;
     border: 1px solid black;
     background-color: rgb(7, 7, 96);
+
+    display: grid;
+    grid-template-columns: repeat(3,240px);
+    grid-template-rows: repeat(3, 1.7rem);
 }
-.footer p{
+.x0{
+    width: 6rem;
+    height: 5rem;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.a0 {
     font-size: 1rem;
     color: white;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.a1{
+    color: white;
+    font-size: 0.5rem;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
 }
