@@ -1,5 +1,39 @@
 .section2{
     width: 44.9rem;
-    height: 20rem;
     border: 1px solid black;
 }
+.table-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #000000;
+    color: #ddd;
+  }
+  
+  
+  tr:hover {
+    background-color: #000000;
+  }
